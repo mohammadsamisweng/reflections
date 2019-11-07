@@ -1,0 +1,54 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    When we be able to view the differences between two versions of a file, then 
+    we can spot only the changes between the two versions, and can spot the errors
+    easily. Otherwise, we have to compare the two versions line by line which is
+    very time consuming.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    When I have an easy access for the full history of a file, I can easily rollback
+    to an old version if the modifications done on the new version is incorrect.
+    Also, I can get any old version to check its code easily.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    When we choose a system that commits manually, one of its biggest problems
+    is that we may forget to commit after each logical change, which leads to
+    very huge amount of changes in one commit. In this case, comparing commits 
+    together is not that efficient. On the other hand, committing automatically
+    may lead to meaningless commits as the commit may happen in the middle of 
+    write line of code, and the code will fail to compile also in this case.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    In code related files, it is very likely that one logical change such as 
+    changing font size or color for example will affect many files; not just one
+    file. Also, we usually define methods in one class, and use it in other classes.
+    However, in documents words, these scenarios are very rare to happen. Therefore,
+    tools like Google Docs are maintaining one file per commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Assuming that I am adding a descriptive messages for each commit, I can use
+    git log command to get the ID of the required commit. Then, using git diff
+    command I can compare this commit with the commit befor it to get the details
+    of the modifications done in the required commit.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Of course having the ability to go back and forth between the different versions
+    of my source code will give me more freedom in trying enhancements for my code.
+    In case, the enhancement done is not good or has a performance issue, I can
+    return easily to the last working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use git for maintaining my codefrom now on, and to be able to share 
+    code with my colleagues, and to have more freedom in making changes.
