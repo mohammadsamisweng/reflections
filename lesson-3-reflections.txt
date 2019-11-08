@@ -1,1 +1,5 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+	I would create a remote repository when I reach a good quality state of my work, and I 
+	want to share it with others. So, I have to push my branch on github so others can pull
+	it and check it.
