@@ -42,3 +42,7 @@ the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Well, I think that git behaves wisely in choosing the merge strategy. Normally,
+	when it faces conflict, it is much easier to ask the authers to resolve their 
+	conflict between them instead of letting git guess to solve it.
