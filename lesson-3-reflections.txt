@@ -21,3 +21,10 @@ use one instead of another?
 	of a repository to our local machine. The source can be either a repository
 	on GitHub or another local repository. Branches is a way of labeling certain
 	commits.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+	Sometimes the local master branch may not into sync with the github master
+	branch, and that they are out of sync. So, the only way to solve this issue
+	is to have another copy of the remote branch, and then we can merge it.
