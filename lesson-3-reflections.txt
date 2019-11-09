@@ -10,3 +10,14 @@ automatically stay up-to-date with your remote repository?
 
 	This is because I want to keep my commits organized, and not to clutter others
 	commits with my commits.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+	We use forking when we want to get a copy of someone else repository and 
+	place the new copy on GitHub servers. In this way we can have our own copy
+	without modifying the original repo, and at the same time we can suggest 
+	modifications to the original repository. Clones can be used to get a copy 
+	of a repository to our local machine. The source can be either a repository
+	on GitHub or another local repository. Branches is a way of labeling certain
+	commits.
