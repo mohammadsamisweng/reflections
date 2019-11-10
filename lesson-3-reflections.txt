@@ -28,3 +28,12 @@ stored locally?
 	Sometimes the local master branch may not into sync with the github master
 	branch, and that they are out of sync. So, the only way to solve this issue
 	is to have another copy of the remote branch, and then we can merge it.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+	Without GitHub, it will be very tedious to collaborate. One of the ways is 
+	to share the project through email for example, or exchanging a flash memory.
+	In this way, if we exchange many time, then we will almost lose which one
+	comes before the other. Using GitHub, it may contains more step, but on the 
+	long run, it is much more efficient.
